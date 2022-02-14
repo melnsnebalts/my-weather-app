@@ -1,0 +1,111 @@
+body {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.currentLocation,
+.currentTime,
+.currentTemperature,
+.nextOneDay,
+.nextOneTemperature,
+.nextTwoDay,
+.nextTwoTemperature,
+.nextThreeDay,
+.nextThreeTemperature,
+.nextFourDay,
+.nextFourTemperature,
+.nextFiveDay,
+.nextFiveTemperature {
+  font-family: "Bebas Neue", cursive;
+}
+.container {
+  padding: 8px 20px;
+  background: linear-gradient(#defcf9, #c3bef0);
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #cadefc;
+}
+
+#currentButton {
+  position: relative;
+  top: 49px;
+  left: 60px;
+  border: 1px solid #767676;
+  border-radius: 2px;
+}
+
+.nextOneTemperature,
+.nextTwoTemperature,
+.nextThreeTemperature,
+.nextFourTemperature,
+.nextFiveTemperature {
+  font-size: 30px;
+}
+form {
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+.locationWeather {
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding-top: 10px;
+}
+.currentWeather {
+  width: 200px;
+}
+.currentLocation {
+  font-size: 25px;
+  margin: 0 auto;
+}
+.currentTime {
+  font-size: 18px;
+  margin: 0 auto;
+}
+.currentTemperature {
+  margin: 50px;
+}
+.temperatureNow {
+  font-size: 100px;
+}
+.celsius,
+.fahrenheit,
+.line {
+  position: relative;
+  bottom: 50px;
+  font-size: 30px;
+}
+.celsius,
+.fahrenheit {
+  text-decoration: none;
+  color: #000000;
+}
+.col {
+  text-align: center;
+}
+i {
+  font-size: 64px;
+}
+#currentWeather {
+  font-size: 150px;
+  margin: 20px 20px;
+}
+#nextOne,
+#nextTwo,
+#nextThree,
+#nextFour,
+#nextFive {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+#nextOne:hover,
+#nextTwo:hover,
+#nextThree:hover,
+#nextFour:hover,
+#nextFive:hover {
+  background-color: #defcf9;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+}
