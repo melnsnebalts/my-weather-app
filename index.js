@@ -80,3 +80,11 @@ function citySearch(city) {
 
 let locationSearch = document.querySelector(".header");
 locationSearch.addEventListener("submit", inputSearch);
+
+
+function openGitHub () {
+window.open(`https://github.com/melnsnebalts/my-weather-app`)
+}
+
+let linkGit = document.querySelector(".github-link")
+linkGit.addEventListener("click", openGitHub)

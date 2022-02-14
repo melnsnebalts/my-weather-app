@@ -121,3 +121,6 @@ footer {
   font-family: sans-serif;
   text-decoration: none;
 }
+.github-link:hover {
+  cursor: pointer;
+}
