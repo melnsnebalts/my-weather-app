@@ -19,6 +19,9 @@ body {
 .nextFiveTemperature {
   font-family: "Bebas Neue", cursive;
 }
+.currentTemperature {
+  padding-left: auto
+}
 .container {
   padding: 8px 20px;
   background: linear-gradient(#defcf9, #c3bef0);
