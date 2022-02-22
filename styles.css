@@ -55,8 +55,9 @@ form {
   margin-top: 30px;
   padding-top: 10px;
 }
-.currentWeather {
-  width: 200px;
+.currentWeatherIcon {
+  width: 100px;
+  padding-bottom: 50px;
 }
 .currentLocation {
   font-size: 25px;
