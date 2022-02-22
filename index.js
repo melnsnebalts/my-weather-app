@@ -88,3 +88,6 @@ window.open(`https://github.com/melnsnebalts/my-weather-app`)
 
 let linkGit = document.querySelector(".github-link")
 linkGit.addEventListener("click", openGitHub)
+
+let icon = document.querySelector("#currentWeather");
+icon.setAttribute ("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`)
