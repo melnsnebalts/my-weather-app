@@ -58,6 +58,50 @@ function formatDate(timestamp){
   return `${day} ${hours}:${minutes}`;
 }
 
+function displayForecast() {
+  let forecastElement = document.querySelector(".forecast");
+  
+  forecastElement.innerHTML = `        
+  <div class="row" id="days">
+  <div class="col" id="nextOne">
+    <div class="nextOneDay">Saturday</div>
+    <br />
+    <div class="nextOneTemperature">13°C</div>
+    <br />
+    <i class="fas fa-cloud-rain"></i>
+  </div>
+  <div class="col" id="nextTwo">
+    <div class="nextTwoDay">Sunday</div>
+    <br />
+    <div class="nextTwoTemperature">29°C</div>
+    <br />
+    <i class="far fa-sun"></i>
+  </div>
+  <div class="col" id="nextThree">
+    <div class="nextThreeDay">Monday</div>
+    <br />
+    <div class="nextThreeTemperature">-1°C</div>
+    <br />
+    <i class="fas fa-cloud-meatball"></i>
+  </div>
+  <div class="col" id="nextFour">
+    <div class="nextFourDay">Tuesday</div>
+    <br />
+    <div class="nextFourTemperature">3°C</div>
+    <br />
+    <i class="fas fa-wind"></i>
+  </div>
+  <div class="col" id="nextFive">
+    <div class="nextFiveDay">Wednesday</div>
+    <br />
+    <div class="nextFiveTemperature">-24°C</div>
+    <br />
+    <i class="far fa-snowflake"></i>
+  </div>
+</div>
+`
+  }
+  
 
 function displayTemperature(response) {
   let temperatureElement=document.querySelector(".temperatureNow");
