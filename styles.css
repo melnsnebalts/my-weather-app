@@ -8,7 +8,8 @@ body {
 .currentTime,
 .currentTemperature,
 .nextOneDay,
-.nextOneTemperature,
+.nextOneTemperatureMax,
+.nextOneTemperatureMin,
 .nextTwoDay,
 .nextTwoTemperature,
 .nextThreeDay,
@@ -37,7 +38,8 @@ body {
   border-radius: 2px;
 }
 
-.nextOneTemperature,
+.nextOneTemperatureMax,
+.nextOneTemperatureMin,
 .nextTwoTemperature,
 .nextThreeTemperature,
 .nextFourTemperature,

@@ -72,7 +72,11 @@ days.forEach(function (day) {
   <div class="col" id="nextOne">
     <div class="nextOneDay">${day}</div>
       <br />
-      <div class="nextOneTemperature">13°C</div>
+      <div>
+      <span class="nextOneTemperatureMax">13°C</span>
+      <br />
+      <span class="nextOneTemperatureMin">2°C</span>
+      </div>
       <br />
       <img
       src="http://openweathermap.org/img/wn/50d@2x.png"
