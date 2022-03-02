@@ -34,6 +34,11 @@ body {
 .nextOneTemperatureMin {
   font-size: 30px;
 }
+
+.nextOneTemperatureMin {
+  color: #767676;
+}
+
 form {
   margin: 20px 0 0 0;
   text-align: center;
