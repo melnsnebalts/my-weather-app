@@ -124,7 +124,7 @@ function displayTemperature(response) {
 
   temperatureElement.innerHTML=Math.round(response.data.main.temp);
   cityElement.innerHTML=response.data.name; 
-  dateElement.innerHTML=formatDate(response.data.dt*1000);
+  dateElement.innerHTML= `Last updated ` + formatDate(response.data.dt*1000);
   iconElement.setAttribute("src",`http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png` );
 
   getForecast(response.data.coord);
