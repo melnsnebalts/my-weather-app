@@ -9,15 +9,7 @@ body {
 .currentTemperature,
 .nextOneDay,
 .nextOneTemperatureMax,
-.nextOneTemperatureMin,
-.nextTwoDay,
-.nextTwoTemperature,
-.nextThreeDay,
-.nextThreeTemperature,
-.nextFourDay,
-.nextFourTemperature,
-.nextFiveDay,
-.nextFiveTemperature {
+.nextOneTemperatureMin {
   font-family: "Bebas Neue", cursive;
 }
 .currentTemperature {
@@ -39,11 +31,7 @@ body {
 }
 
 .nextOneTemperatureMax,
-.nextOneTemperatureMin,
-.nextTwoTemperature,
-.nextThreeTemperature,
-.nextFourTemperature,
-.nextFiveTemperature {
+.nextOneTemperatureMin {
   font-size: 30px;
 }
 form {
@@ -97,19 +85,11 @@ i {
   font-size: 150px;
   margin: 20px 20px;
 }
-#nextOne,
-#nextTwo,
-#nextThree,
-#nextFour,
-#nextFive {
+#nextOne {
   padding-top: 5px;
   padding-bottom: 10px;
 }
-#nextOne:hover,
-#nextTwo:hover,
-#nextThree:hover,
-#nextFour:hover,
-#nextFive:hover {
+#nextOne:hover {
   background-color: #defcf9;
   padding-bottom: 5px;
   border-radius: 5px;
