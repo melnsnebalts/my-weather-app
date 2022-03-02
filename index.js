@@ -60,46 +60,33 @@ function formatDate(timestamp){
 
 function displayForecast() {
   let forecastElement = document.querySelector(".forecast");
+
+  let days = ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday"];
+
+let forecastHTML = `<div class="row">`;
   
-  forecastElement.innerHTML = `        
-  <div class="row" id="days">
+days.forEach(function (day) {
+
+  forecastHTML = forecastHTML + 
+  `
   <div class="col" id="nextOne">
-    <div class="nextOneDay">Saturday</div>
-    <br />
-    <div class="nextOneTemperature">13°C</div>
-    <br />
-    <i class="fas fa-cloud-rain"></i>
+    <div class="nextOneDay">${day}</div>
+      <br />
+      <div class="nextOneTemperature">13°C</div>
+      <br />
+      <img
+      src="http://openweathermap.org/img/wn/50d@2x.png"
+      alt=""
+      width="64"
+      />    
+    </div>
   </div>
-  <div class="col" id="nextTwo">
-    <div class="nextTwoDay">Sunday</div>
-    <br />
-    <div class="nextTwoTemperature">29°C</div>
-    <br />
-    <i class="far fa-sun"></i>
-  </div>
-  <div class="col" id="nextThree">
-    <div class="nextThreeDay">Monday</div>
-    <br />
-    <div class="nextThreeTemperature">-1°C</div>
-    <br />
-    <i class="fas fa-cloud-meatball"></i>
-  </div>
-  <div class="col" id="nextFour">
-    <div class="nextFourDay">Tuesday</div>
-    <br />
-    <div class="nextFourTemperature">3°C</div>
-    <br />
-    <i class="fas fa-wind"></i>
-  </div>
-  <div class="col" id="nextFive">
-    <div class="nextFiveDay">Wednesday</div>
-    <br />
-    <div class="nextFiveTemperature">-24°C</div>
-    <br />
-    <i class="far fa-snowflake"></i>
-  </div>
-</div>
-`
+  `
+  })
+
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+  console.log(forecastHTML);
   }
   
 
