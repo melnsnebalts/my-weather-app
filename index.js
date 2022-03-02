@@ -33,7 +33,12 @@ function locationClick(event) {
 let locationButton = document.querySelector("#currentButton");
 locationButton.addEventListener("click", locationClick);
 
+function openIG () {
+  window.open(`https://www.instagram.com/melnsnebalts/`)
+}
 
+let linkIG = document.querySelector(".instagram-link")
+linkIG.addEventListener("click", openIG)
 
 function openGitHub () {
 window.open(`https://github.com/melnsnebalts/my-weather-app`)

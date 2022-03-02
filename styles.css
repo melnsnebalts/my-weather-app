@@ -100,15 +100,26 @@ i {
   border-radius: 5px;
   transition: all 200ms ease-in-out;
 }
+
 footer {
-  text-align: center;
-  
-}
-.github-link {
   font-size: 12px;
-  font-family: sans-serif;
+  font-family: 'Roboto Slab', serif;
   text-decoration: none;
 }
+
+.coded-by {
+  padding-left: 30px;
+}
+
+.instagram-link:hover {
+  cursor: pointer;
+}
+
+.github-link {
+  float: right;
+  padding-right: 30px;
+}
+
 .github-link:hover {
   cursor: pointer;
 }
