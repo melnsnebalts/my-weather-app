@@ -84,7 +84,6 @@ days.forEach(function (day) {
       width="64"
       />    
     </div>
-  </div>
   `
   })
 
